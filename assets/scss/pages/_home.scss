@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+.listdiv{
+    margin-right: 30px;
+}
+    }
+    .numberdiv{
+        background-color: orangered;
+        padding-top: 8px;
+margin-left: 30px;
+cursor: pointer;
+        
+    }
+}
+@media screen and (max-width: 992px) {
+
+    .numberdiv {
+        display: none;
+    }}
+    #homesection{
+        background-image: url(/assets/img/home_slider_bcg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 30px;
+        .container{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .row{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .h1div{
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    padding: 30px;
+                    display: flex;
+                   text-align:  center;
+                    justify-content: center;
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: $main-color;
+    font-size: 80px;
+}
+                }
+            }
+        }
+    }
+   #cartsection{
+    width: 100%;
+    .container{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding: 30px;
+     
+        .row{
+
+            .titlediv{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    color: $primary-color;
+                }
+                h3{
+                    color: $second-color;
+                    
+                }
+                p{
+                    color: #B0BFDA;
+                }
+            }
+            .mycart{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                background-color: #EDEFF4;
+                padding: 10px;
+                margin-bottom: 30px;
+                .textdiv{
+                    color: $second-color;
+                  h5{
+                    font-size: 20px;
+                   color: $second-color;
+                  }  
+                  p{
+                    font-size: 25px;
+                  }
+                }
+                .icondiv{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 5px;
+                    h6{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 20px;
+                        color: $second-color;
+                    }
+                }
+                .btndiv{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 5px;
+                    button{
+                        border: none;
+                        color: $main-color;
+                        padding:2px;
+                        background-color:$primary-color;
+                    }
+                }
+                .countdiv{
+                    width: 100%;
+                    background-color: #1E2C4E;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    .price{
+                        color: $main-color;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0px;
+                        
+                    }
+                }
+            }
+        }
+    }
+   }
+   #clients{
+    width: 100%;
+    background-image: url(/assets/img/testimonials_background.jpg);
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .row{
+            gap: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 30px;
+           
+            .titlediv2{
+text-align: center;
+h1{
+    color: $primary-color;
+}
+h3{
+    color: $main-color;
+}
+p{
+    color: #B0BFDA;
+}
+            }
+.aboutclient{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-size: 20px;
+        color: #B0BFDA;
+        width: 70%;
+    }
+}
+.clientsprofile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    h3{
+        color: $primary-color;
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+        color: #B0BFDA;
+    }
+}
+
+
+        }
+    }
+   }
+   #cities{
+    background-image: url(/assets/img/world.png);
+    width: 100%;
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .row{
+           
+                margin-top: 30px;
+                margin-bottom: 30px;
+            
+               
+                .titlediv2{
+    text-align: center;
+    h1{
+        color: $primary-color;
+    }
+    h3{
+color: #1E2C4E;
+    }
+    p{
+        color: #B0BFDA;
+    }   
+        
+    }
+    .city{
+   background-image: url(/assets/img/city_1.jpg);
+   background-size: cover;
+width: fit-content;
+   height: 250px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   padding: 30px;
+position: relative;
+padding-top: 30px;
+display: flex;
+align-items: end;
+justify-content: center;
+button{
+    border: none;
+    background-color: $primary-color;
+    padding: 10px;
+    width: 100px;
+    color: $main-color;
+}
+    }
+   }
+    }}
+footer{
+    background-color: #1E2C4E;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .foot{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #1E2C4E;
+                color: #B0BFDA;
+            }
+        }
+    }
+}
